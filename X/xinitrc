@@ -25,8 +25,8 @@ export GTK_IM_MODULE="ibus"
 export PT_IM_MODULE="ibus"
 
 # transparent, shadow
-#xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
-#xcompmgr &
+xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+xcompmgr &
 
 # start gnome setting for gnome programs
 gnome-settings-daemon &
