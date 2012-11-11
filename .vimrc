@@ -1,4 +1,4 @@
-" Vundle {{{
+" {{{ Vundle
 set nocompatible		" be iMproved
 filetype off			" required!
 
@@ -18,13 +18,15 @@ Bundle 'Lokaltog/vim-powerline'
 filetype plugin indent on		" required!
 " }}}
 
-" plugin settings {{{
+" {{{ plugin settings
+
 " power-line settings
 set laststatus=2
 set t_Co=256
 let g:Powerline_symblos = 'fancy'
 let g:Powerline_colorscheme = 'solarized256'
 set encoding=utf8
+
 " }}}
 
 set fileformats=unix,dos,mac

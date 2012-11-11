@@ -84,16 +84,7 @@ if [ -x /usr/lib/command-not-found ]; then
 	}
 fi
 
-# enable color support of ls, *grep
-if [ "$TERM" != "dumb" ] && [ -x /bin/dircolors ]; then
-	eval "`dircolors -b`"
-	alias ls='ls --color=auto'
-	alias grep='grep --color=auto'
-	alias fgrep='grep --color=auto'
-	alias egrep='grep --color=auto'
-fi
-
-# more aliases
+# some aliases
 alias l='ls -l'
 alias lh='ls -lh'
 alias la='ls -a'
